@@ -5,7 +5,7 @@ Summary:	Statistics::Frequency - simple counting of elements
 Summary(pl):	Statistics::Frequency - proste liczenie elementów
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.02
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -20,8 +20,12 @@ in another words, frequencies.  Sure, you can $freq{$elem}++ yourself,
 but what if you need to normalize the frequencies, or what if you have
 several frequencies you want to combine?  Statistics::Frequency to rescue.
 
-# %description -l pl
-# TODO
+%description -l pl
+Jest to ma³y modu³ do ma³ego, ale bardzo popularnego zadania:
+zliczania ró¿nych rzeczy, a innymi s³owy, czêstotliwo¶ci. Oczywi¶cie
+mo¿na robiæ samemu $freq{$elem}++, ale je¶li potrzebna jest
+normalizacja czêstotliwo¶ci, albo kombinacja kilku czêstotliwo¶ci?
+Modu³ Statistics::Frequency jest ratunkiem.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
