@@ -32,7 +32,7 @@ Modu³ Statistics::Frequency jest ratunkiem.
 
 %build
 #perl Makefile.PL # it's broken: sixsth line prevents from generating man page
-perl -MExtUtils::MakeMaker -e 'WriteMakefile(NAME=>"Statistics::Frequency")'
+%{__perl} -MExtUtils::MakeMaker -e 'WriteMakefile(NAME=>"Statistics::Frequency")'
 %{__make}
 
 %{!?_without_tests:%{__make} test}
