@@ -10,7 +10,8 @@ Summary(pl):	Statistics::Frequency - proste liczenie elementów
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.03
 Release:	2
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b67d54fb3db4787f170f3700e5362417
