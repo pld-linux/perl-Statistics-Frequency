@@ -9,7 +9,7 @@ Summary:	Statistics::Frequency - simple counting of elements
 Summary(pl):	Statistics::Frequency - proste liczenie elementów
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.03
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
