@@ -4,8 +4,8 @@
 Summary:	Statistics::Frequency - simple counting of elements
 Summary(pl):	Statistics::Frequency - proste liczenie elementów
 Name:		perl-%{pdir}-%{pnam}
-Version:	0.02
-Release:	2
+Version:	0.03
+Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -34,6 +34,7 @@ Modu³ Statistics::Frequency jest ratunkiem.
 #perl Makefile.PL # it's broken: sixsth line prevents from generating man page
 perl -MExtUtils::MakeMaker -e 'WriteMakefile(NAME=>"Statistics::Frequency")'
 %{__make}
+
 %{!?_without_tests:%{__make} test}
 
 %install
