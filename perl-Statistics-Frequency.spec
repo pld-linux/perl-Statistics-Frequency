@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Statistics
-%define	pnam	Frequency
+%define		pdir	Statistics
+%define		pnam	Frequency
 Summary:	Statistics::Frequency - simple counting of elements
 Summary(pl):	Statistics::Frequency - proste liczenie elementów
 Name:		perl-Statistics-Frequency
