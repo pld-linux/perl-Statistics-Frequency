@@ -6,7 +6,7 @@
 %define		pdir	Statistics
 %define		pnam	Frequency
 Summary:	Statistics::Frequency - simple counting of elements
-Summary(pl):	Statistics::Frequency - proste liczenie elementÛw
+Summary(pl.UTF-8):   Statistics::Frequency - proste liczenie element√≥w
 Name:		perl-Statistics-Frequency
 Version:	0.03
 Release:	3
@@ -26,12 +26,12 @@ in another words, frequencies.  Sure, you can $freq{$elem}++ yourself,
 but what if you need to normalize the frequencies, or what if you have
 several frequencies you want to combine?  Statistics::Frequency to rescue.
 
-%description -l pl
-Jest to ma≥y modu≥ do ma≥ego, ale bardzo popularnego zadania:
-zliczania rÛønych rzeczy, a innymi s≥owy, czÍstotliwo∂ci. Oczywi∂cie
-moøna robiÊ samemu $freq{$elem}++, ale je∂li potrzebna jest
-normalizacja czÍstotliwo∂ci, albo kombinacja kilku czÍstotliwo∂ci?
-Modu≥ Statistics::Frequency jest ratunkiem.
+%description -l pl.UTF-8
+Jest to ma≈Çy modu≈Ç do ma≈Çego, ale bardzo popularnego zadania:
+zliczania r√≥≈ºnych rzeczy, a innymi s≈Çowy, czƒôstotliwo≈õci. Oczywi≈õcie
+mo≈ºna robiƒá samemu $freq{$elem}++, ale je≈õli potrzebna jest
+normalizacja czƒôstotliwo≈õci, albo kombinacja kilku czƒôstotliwo≈õci?
+Modu≈Ç Statistics::Frequency jest ratunkiem.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
