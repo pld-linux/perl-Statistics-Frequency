@@ -6,7 +6,7 @@
 %define		pdir	Statistics
 %define		pnam	Frequency
 Summary:	Statistics::Frequency - simple counting of elements
-Summary(pl.UTF-8):   Statistics::Frequency - proste liczenie elementów
+Summary(pl.UTF-8):	Statistics::Frequency - proste liczenie elementów
 Name:		perl-Statistics-Frequency
 Version:	0.03
 Release:	3
