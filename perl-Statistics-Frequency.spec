@@ -4,7 +4,6 @@
 
 %define		pdir	Statistics
 %define		pnam	Frequency
-%include	/usr/lib/rpm/macros.perl
 Summary:	Statistics::Frequency - simple counting of elements
 Summary(pl.UTF-8):	Statistics::Frequency - proste liczenie elementów
 Name:		perl-Statistics-Frequency
